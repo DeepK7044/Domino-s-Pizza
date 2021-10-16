@@ -1,0 +1,13 @@
+[{
+        "Username": "user1",
+        "Contact_Number": "9903567890",
+        "Password": "user123"
+
+    },
+    {
+        "Username": "user2",
+        "Contact_Number": "9903567890",
+        "Password": "user1234"
+
+    }
+]

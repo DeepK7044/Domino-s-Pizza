@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://docs.google.com/uc?id=1oX_kwBWqhFCyaRxzl0LPgxlATPYOoaiY" type="image/png">
+    <title>Home</title>
+    <link rel="stylesheet" href="Bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/Home.css">
+    <script src="JavaScript/jquery-3.6.0.min.js"></script>
+    <script src="https://kit.fontawesome.com/e153b670c8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- header section start  -->
+    <header id="header" class="">
+        <nav class="navbar navbar-expand-lg navbar-dark w-100">
+            <a href="#" class="navbar-brand"><img class="ms-3" src="https://docs.google.com/uc?id=1BuCu1xyFNMUK4DfOZ34N9yWtzEwMab1Z" alt="Dominos_Logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler">
+                <img src="https://docs.google.com/uc?id=1RlhyZyYpBcqYETXP7YBkAHv1CL83nT-i" alt="menu" width="24px">
+                <!-- <img src="https://docs.google.com/uc?id=1f42BmNR7WD72XsUgQF_bRCulZpxgtLE2" alt="" width="50px"> -->
+            </button>
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item ms-lg-0 ms-4 me-xl-4 me-lg-0">
+                        <a class="nav-link fs-4" href="Home.html">Home</a></li>
+                    <li class="nav-item ms-lg-0 ms-4 me-xl-4 me-lg-0">
+                        <a class="nav-link fs-4" href="Deals_Offers.html">Deals & Offers</a></li>
+                    <li class="nav-item ms-lg-0 ms-4 me-xl-4 me-lg-0">
+                        <a class="nav-link fs-4" href="Menu.html">Menu</a></li>
+                    <li class="nav-item ms-lg-0 ms-4 me-xl-4 me-lg-0">
+                        <a class="nav-link fs-4" href="Order_History.html">Order History</a></li>
+                    <li class="nav-item ms-lg-0 ms-4 me-xl-4 me-lg-0">
+                        <a class="nav-link fs-4 me-5" href="Feedback.html">Feedback</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="d-flex" id="header_icon">
+            <div class="fs-3 my-3 btn"><a href="#" id="hart"><i class="fas fa-heart"></i></a></div>
+            <div class="fs-3 my-3 btn"><a href="#" id="cart"><i class="fas fa-shopping-cart"></i></a></div>
+            <div class="fs-3 my-3 me-2 btn dropdown">
+                <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown" id="user"><i class="fas fa-user"></i></a>
+                <div class="dropdown-menu">
+                    <div class="dropdown-item"><i class="fs-4 me-3 fas fa-user-tie"></i>UserName</div>
+                    <div class="dropdown-item"><i class="fs-4 me-3 fas fa-phone-square-alt"></i>contactNumber</div>
+                    <div class="dropdown-divider"></div>
+                    <div class="dropdown-item">
+                        <a href="index_Login.html" class="fs-5 text-muted text-decoration-none">Sign Out
+                            <img width="28px" class="ms-5"
+                                src="https://docs.google.com/uc?id=1mb9j1UYDN4NGHmd07LfOAwWcC9_er8_u"></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <!-- header section end  -->
+
+
+    <!-- body section -->
+    <div>
+        <div id="main_section">
+            <div id="categories" class="d-lg-block">
+                <ul>
+                    <li>
+                        <a href="#" onclick="closeMenuBtn()" class="btn btn-close ms-auto d-lg-none"></a>
+                    </li>
+                    <li>
+                        <a href="#Categories">
+                            <img src="https://docs.google.com/uc?id=1Qhcze0xh02XM7SoIwo4PTyw8tH2S3vV7">Categories
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#BESTSELLERS">
+                            <img src="https://docs.google.com/uc?id=1_zZazbBnL8pKnf66vnUXT2CQ5wRlKwMg">BESTSELLERS
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#VEG_PIZZA">
+                            <img src="https://docs.google.com/uc?id=1_zZazbBnL8pKnf66vnUXT2CQ5wRlKwMg">VEG PIZZA
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#NON_VEG_PIZZA">
+                            <img src="https://docs.google.com/uc?id=1_zZazbBnL8pKnf66vnUXT2CQ5wRlKwMg">NON-VEG PIZZA
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#NEW_LAUNCHES">
+                            <img src="https://docs.google.com/uc?id=1_zZazbBnL8pKnf66vnUXT2CQ5wRlKwMg">NEW LAUNCHES
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#MEALS_COMBOS">
+                            <img src="https://docs.google.com/uc?id=1_zZazbBnL8pKnf66vnUXT2CQ5wRlKwMg">MEALS & COMBOS
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#PIZZA_MANIA">
+                            <img src="https://docs.google.com/uc?id=1_zZazbBnL8pKnf66vnUXT2CQ5wRlKwMg">PIZZA MANIA
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#SPECIALITY_CHICKEN">
+                            <img src="https://docs.google.com/uc?id=1_zZazbBnL8pKnf66vnUXT2CQ5wRlKwMg">SPECIALITY CHICKEN
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#SIDES">
+                            <img src="https://docs.google.com/uc?id=1_zZazbBnL8pKnf66vnUXT2CQ5wRlKwMg">SIDES
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#BEVERAGES">
+                            <img src="https://docs.google.com/uc?id=1_zZazbBnL8pKnf66vnUXT2CQ5wRlKwMg">BEVERAGES
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#DESSERT">
+                            <img src="https://docs.google.com/uc?id=1_zZazbBnL8pKnf66vnUXT2CQ5wRlKwMg">DESSERT
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Menu content block-->
+            <div id="menu">
+                <div class="container">
+                    <div id="BESTSELLERS" class="mt-5">
+                        <div class="menu_hr"></div>
+                        <div class="cat_box">
+                            <div class="cat_name">BESTSELLERS</div>
+                        </div>
+
+                        <!-- All pizza -->
+                        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 mb-3 g-4">
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="https://docs.google.com/uc?id=1v7I5Lt-g4H0MdseqZ-UK0TYc3Ai0sdLD" class="card-img-top">
+                                    <div class="card-body">
+                                        <h5 class="card-title" id="card_title">Margherita</h5>
+                                        <p class="card-text text-muted" id="card-text">A classic delight with 100% Real mozzarella cheese</p>
+                                        <hr>
+                                        <div class="card-text d-flex ">
+                                            <p class="d-flex mt-2">&#8377;&nbsp;<span id="price">250</span></p>
+                                            <select name="Pizza_Size" id="pizzaSize" class="ms-auto h-50 form-select w-50">
+                                                <option value="1">Medium</option>
+                                                <option value="2">Regular</option>
+                                                <option value="3">Large</option>
+                                            </select>
+                                        </div>
+                                        <button type="button" class="d-flex mt-2 ms-auto btn btn-outline-success">ADD TO
+                                                CART</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="https://docs.google.com/uc?id=1v7I5Lt-g4H0MdseqZ-UK0TYc3Ai0sdLD" class="card-img-top">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Margherita</h5>
+                                        <p class="card-text text-muted">A classic delight with 100% Real mozzarella cheese</p>
+                                        <hr>
+                                        <div class="card-text d-flex ">
+                                            <p class="d-flex mt-2">&#8377;&nbsp;<span id="price">250</span></p>
+                                            <select name="Pizza_Size" id="pizzaSize" class="ms-auto h-50 form-select w-50">
+                                                <option value="1">Medium</option>
+                                                <option value="2">Regular</option>
+                                                <option value="3">Large</option>
+                                            </select>
+                                        </div>
+                                        <button type="button" class="d-flex mt-2 ms-auto btn btn-outline-success">ADD TO
+                                                CART</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="https://docs.google.com/uc?id=1v7I5Lt-g4H0MdseqZ-UK0TYc3Ai0sdLD" class="card-img-top">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Margherita</h5>
+                                        <p class="card-text">A classic delight with 100% Real mozzarella cheese</p>
+                                        <hr>
+                                        <div class="card-text d-flex ">
+                                            <p class="d-flex mt-2">&#8377;&nbsp;<span id="price">250</span></p>
+                                            <select name="Pizza_Size" id="pizzaSize" class="ms-auto h-50 form-select w-50">
+                                                <option value="1">Medium</option>
+                                                <option value="2">Regular</option>
+                                                <option value="3">Large</option>
+                                            </select>
+                                        </div>
+                                        <button type="button" class="d-flex mt-2 ms-auto btn btn-outline-success">ADD TO
+                                                CART</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="https://docs.google.com/uc?id=1v7I5Lt-g4H0MdseqZ-UK0TYc3Ai0sdLD" class="card-img-top">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Margherita</h5>
+                                        <p class="card-text">A classic delight with 100% Real mozzarella cheese</p>
+                                        <button type="button" class="ms-auto btn btn-outline-success">ADD TO
+                                            CART</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="https://docs.google.com/uc?id=1v7I5Lt-g4H0MdseqZ-UK0TYc3Ai0sdLD" class="card-img-top">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Margherita</h5>
+                                        <p class="card-text">A classic delight with 100% Real mozzarella cheese</p>
+                                        <button type="button" class="ms-auto btn btn-outline-success">ADD TO
+                                            CART</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="https://docs.google.com/uc?id=1v7I5Lt-g4H0MdseqZ-UK0TYc3Ai0sdLD" class="card-img-top">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Margherita</h5>
+                                        <p class="card-text">A classic delight with 100% Real mozzarella cheese</p>
+                                        <button type="button" class=" btn btn-outline-success">ADD TO
+                                            CART</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="https://docs.google.com/uc?id=1v7I5Lt-g4H0MdseqZ-UK0TYc3Ai0sdLD" class="card-img-top">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Margherita</h5>
+                                        <p class="card-text">A classic delight with 100% Real mozzarella cheese</p>
+                                        <button type="button" class="ms-auto btn btn-outline-success">ADD TO
+                                            CART</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div id="VEG_PIZZA">
+                        <div class="menu_hr"></div>
+                        <div class="cat_box">
+                            <div class="cat_name">VEG PIZZA</div>
+                        </div>
+                    </div>
+                    <div id="NON_VEG_PIZZA">
+                        <div class="menu_hr"></div>
+                        <div class="cat_box">
+                            <div class="cat_name">NON-VEG PIZZA</div>
+                        </div>
+                    </div>
+                    <div id="NEW_LAUNCHES">
+                        <div class="menu_hr"></div>
+                        <div class="cat_box">
+                            <div class="cat_name">NEW_LAUNCHES</div>
+                        </div>
+                    </div>
+                    <div id="MEALS_COMBOS">
+                        <div class="menu_hr"></div>
+                        <div class="cat_box">
+                            <div class="cat_name">MEALS & COMBOS</div>
+                        </div>
+                    </div>
+                    <div id="PIZZA_MANIA">
+                        <div class="menu_hr"></div>
+                        <div class="cat_box">
+                            <div class="cat_name">PIZZA MANIA</div>
+                        </div>
+                    </div>
+                    <div id="SPECIALITY_CHICKEN">
+                        <div class="menu_hr"></div>
+                        <div class="cat_box">
+                            <div class="cat_name">SPECIALITY CHICKEN</div>
+                        </div>
+                    </div>
+                    <div id="SIDES">
+                        <div class="menu_hr"></div>
+                        <div class="cat_box">
+                            <div class="cat_name">SIDES</div>
+                        </div>
+                    </div>
+                    <div id="BEVERAGES">
+                        <div class="menu_hr"></div>
+                        <div class="cat_box">
+                            <div class="cat_name">BEVERAGES</div>
+                        </div>
+                    </div>
+                    <div id="DESSERT">
+                        <div class="menu_hr"></div>
+                        <div class="cat_box">
+                            <div class="cat_name">DESSERT</div>
+                        </div>
+                    </div>
+
+
+
+                    <a href="#" id="menu-btn" onclick="openMenuBtn()" class="btn btn-primary d-lg-none">
+                        <img src="https://docs.google.com/uc?id=1CdL57dqI3i4yW33lsiHulm1zD-7Do4DK" alt="Menu" width="32px">
+                        <span class="fs-5 fw-bold">Menu</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Cart item block -->
+            <div id="checkout">
+                <div id="cart_box">
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- 
+        <footer id="footer">
+            <div id="main_footer_section" class="pt-5">
+                <div id="footer_section_1">
+                    <img src="https://docs.google.com/uc?id=10wcxugcWtf3jafQnqqhg1-Snrr5hs_1L" alt="Dominos_Logo">
+                    <ul>
+                        <li><a href="#">Disclaimer</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Faq</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Feedback</a></li>
+                    </ul>
+                </div>
+                <div id="footer_section_2">
+                    <h3 class="text-muted">DOWNLOAD APP</h3>
+                    <div id="footer_icon" class="d-flex">
+                        <img src="https://docs.google.com/uc?id=1x0sVGCzW4lF9XncoUA_S9q1_lSyc6hhd" class="me-3" alt="google_store">
+                        <img src="https://docs.google.com/uc?id=1xyVYiTAsJvY4KFKEkqwK7AOpYsNWcS5J" alt="app_store">
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="text-center fs-4" id="copy_right">
+                <p class="text-muted">All Rights Reserved. Copyright © Jubilant FoodWorks Ltd.</p>
+            </div>
+        </footer> -->
+
+    </div>
+
+
+    <script src="JavaScript/bootstrap.bundle.min.js"></script>
+    <script src="JavaScript/Login_Credentials.js"></script>
+    <script>
+        function openMenuBtn() {
+            document.getElementById("categories").style.width = "40%";
+        }
+
+        function closeMenuBtn() {
+            document.getElementById("categories").style.width = "0px";
+            document.getElementById("manu").style.marginLeft = "0px";
+        }
+
+        $(document).ready(function() {
+
+        });
+    </script>
+</body>
+
+</html>
